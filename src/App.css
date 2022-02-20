@@ -9,7 +9,8 @@
 .App-tasks {
 	display: flex;
 	flex-direction: column;
-	width: min(80%, 60rem);
+	width: min(50rem, 50%);
+	height: 50rem;
 	padding-block: 2rem;
 	background-color: antiquewhite;
 	box-shadow: 0 3px 1rem rgba(0, 0, 0, 0.3);
@@ -35,7 +36,7 @@
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
-	padding: 1rem;
+	padding: 1.5rem;
 	text-align: left;
 	padding-bottom: 0.5rem;
 	line-height: 1.6;
@@ -54,13 +55,20 @@
 	align-items: center;
 }
 
+.todo-section:first-child {
+	border: 0.5rem tomato dotted;
+	font-size: 1.5rem;
+	color: darkblue;
+}
+
 .todo-section h3 {
 	color: firebrick;
-	font-size: 1.5rem;
+	font-size: 1.7rem;
 }
 
 .todo-section h4 {
 	text-transform: capitalize;
+	font-size: 1.4rem;
 }
 
 .todo-section p {
